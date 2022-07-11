@@ -38,7 +38,7 @@ class MusikBot(commands.Bot):
         self.setup()
         self.logger.debug("Running bot...")
         # self.ipc.start()
-        TOKEN = "OTkyOTM4OTMxNTcyMTkxMjQy.GVPTeN.7dQgEDdi0Ppeh-cW1rhjpmEuZWtymaAYw2cOHo"
+        TOKEN = "Dachtet Ihr nh"
         super().run(TOKEN, reconnect=True)
 
     async def on_ready(self):
